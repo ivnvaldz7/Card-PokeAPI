@@ -71,9 +71,11 @@ body {
 }
 
 .card-body__img {
+  width: 150px;
+  height: 150px;
   border: 5px solid #fff;
   border-radius: 50%;
-  margin-top: calc(-48px - 5px);
+  margin-top: calc(-75px - 5px);
   background-color: var(--white);
 }
 
