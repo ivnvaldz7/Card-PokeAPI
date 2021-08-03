@@ -83,6 +83,7 @@ body {
   font-size: 1.8rem;
   margin-top: 1.5rem;
   color: var(--very-dark);
+  text-transform: capitalize;
 }
 
 .card-body__title span {
