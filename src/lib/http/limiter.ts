@@ -14,7 +14,7 @@ export const createLimiter = (maxConcurrent: number): Limiter => {
     task();
   };
 
-  const run: Limiter["run"] = async (task) => {
+  const run: Limiter["run"] = <T>(task: () => Promise<T>) => {
     return new Promise<T>((resolve, reject) => {
       const execute = () => {
         task()
